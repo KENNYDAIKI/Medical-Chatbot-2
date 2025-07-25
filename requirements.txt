@@ -1,0 +1,14 @@
+sentence-transformers==2.2.2
+langchain
+flask
+pydf
+python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_experimental
+transformers          # For Hugging Face models
+accelerate            # Helps with optimized inference
+huggingface-hub       # If you're loading models from the HF Hub
+torch  
+-e .                   # PyTorch for model inference
